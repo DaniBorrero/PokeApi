@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Anton', sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+.hero {
+	background: #000;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.texto {
+	width: 100%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 200px;
+	font-weight: bold;
+
+	background-image: url('https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2019/06/pokemon_collage.jpg?w=1336&ssl=1');
+	background-size: cover;
+	background-position-y: 500px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+}
